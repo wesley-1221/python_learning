@@ -32,7 +32,7 @@ def login(auth_type):                #把执行模块传进来
 def home():
     print("______首页_______")
 
-@login('qq')
+@login('qq')                                                # america = auth(america)
 def america():
     print("______欧美专区______")
 
