@@ -32,7 +32,7 @@ class Student(Person):
     def tell_info(self):
         print('我的学号id是%d, 名字：%s'%(self.S_id, self.name))
 
-T = Teacher("吴加红",21,"男", 2020108847)
+T = Teacher("吴某",21,"男", 2020108847)
 T.tell_info()
 
 S = Student("李某", 30, "女", 2018108888)
