@@ -7,5 +7,5 @@
 #输出一个四行三列的矩形
 for i in range(4):
     for j in range(3):
-        print("*",end='\t')   #不换行输出
+        print("*", end='\t')   #不换行输出
     print('\n')                #换行

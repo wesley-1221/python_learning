@@ -21,10 +21,10 @@
 # print(list_1[-3])
 # # print(list_1[10])     #IndexError: list index out of range
 
-#获取多个元素
-#切片  [start:stop:step]     左闭右开.step不写，默认为1
-#step为正数
-#lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# 获取多个元素
+# 切片  [start:stop:step]     左闭右开.step不写，默认为1
+# step为正数
+# lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # print(lst[1:5:2])
 # print(lst[1:5:1])
 # print(lst[:5:1])

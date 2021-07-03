@@ -19,7 +19,7 @@ class Printer(object):
     __tasks = []
     def __init__(self,task):
         self.__tasks.append(task)
-        print("added a new task in queue..",task)
+        print("added a new task1 in queue..",task)
     def __new__(cls, *args, **kwargs):
         if cls.__instance is None: # 代表之前还没被实例化过
             obj = object.__new__(cls)
